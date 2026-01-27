@@ -25,8 +25,3 @@ try:
  except:
     print ("invalid operator ")
      
-'''
-this is a multiline comment 
-multiline string will ignored by interpreter 
-if its not assigned to a variable 
-'''
