@@ -1,23 +1,32 @@
+
+# Simple programm to create a calculator using if else 
 number1 = float(input ("enter 1st number:- "))
 operator= input ("operator:-  ")
-number2 = float(input ("enter 2nd number:- "))
+number2 = float(input ("enter 2nd number:- ")) 
 
-if operator== "+" :
-    print ("Result: ", number1 + number2)
-
-elif operator== "-" :
-    print ("Result: ", number1 - number2)
-    
-elif operator== "*" :
-    print ("Result: ", number1 * number2)
-
-elif operator== "/" :
-    if number2 != 0 :
-        print ("Result:",number1/number2)
-        if number2 == 0: 
-            print ("error!")
-            
-        
-            
-else :
+#Error Handling with try and Except block
+try:
+    # For addition operation 
+   if operator== "+" :
+      print ("Result: ", number1 + number2)
+# For sub operation
+   elif operator== "-" :
+      print ("Result: ", number1 - number2)
+    # For multiple operation
+   elif operator== "*" :
+      print ("Result: ", number1 * number2)
+# For Division operation
+  elif operator== "/" :
+      if number2 != 0 :
+         print ("Result:",number1/number2)
+      else number2 == 0:
+         print ("Please Enter another Number ")
+         print('Its a zero division Error')
+ except:
     print ("invalid operator ")
+     
+'''
+this is a multiline comment 
+multiline string will ignored by interpreter 
+if its not assigned to a variable 
+'''
