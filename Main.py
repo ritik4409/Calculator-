@@ -12,7 +12,7 @@ try:
 # For sub operation
    elif operator== "-" :
       print ("Result: ", number1 - number2)
-    # For multiple operation
+# For multiple operation
    elif operator== "*" :
       print ("Result: ", number1 * number2)
 # For Division operation
