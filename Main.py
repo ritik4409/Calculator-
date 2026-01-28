@@ -19,7 +19,7 @@ try:
   elif operator== "/" :
       if number2 != 0 :
          print ("Result:",number1/number2)
-      else number2 == 0:
+      elif number2 == 0:
          print ("Please Enter another Number ")
          print('Its a zero division Error')
  except:
